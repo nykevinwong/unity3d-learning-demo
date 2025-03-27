@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<!--
+	<definition id="save_slot">
+		
+		<definition id="chrome" src="ui/chrome/dark_grey" slice9="4,4,8,8"/>
+		<definition id="chrome_texture" src="ui/chrome/dark_grey_texture" slice9="4,4,8,8"/>
+		<definition id="chrome_inset" src="ui/chrome/dark_grey_inset" slice9="4,4,8,8"/>
+	
+		
+		
+		<definition id="big_button_blue" width="93" height="31">
+			<text use_def="sans14c"/>
+			<graphic id="all" image="ui/buttons/button_blue" slice9="6,6,12,12"/>
+		</definition>
+		
+		<definition id="big_button_gold" width="93" height="31">
+			<text use_def="sans13c"/>
+			<graphic id="all" image="ui/buttons/button_gold" slice9="6,6,12,12"/>
+		</definition>		
+		
+		<definition id="skinny_button_gold" width="93" height="20">
+			<text use_def="pixel"/>
+			<graphic id="all" image="ui/buttons/button_gold" slice9="6,6,12,12"/>
+		</definition>	
+		
+		<definition id="skinny_button_red" width="93" height="20">
+			<text use_def="pixel"/>
+			<graphic id="all" image="ui/buttons/button_red" slice9="6,6,12,12"/>
+		</definition>	
+		
+		<definition id="skinny_button_blue" width="93" height="20">
+			<text use_def="pixel"/>
+			<graphic id="all" image="ui/buttons/button_blue" slice9="6,6,12,12"/>
+		</definition>	
+		
+		<group id="shadow"/>
+		<group id="back"/>
+		<group id="icons"/>
+		<group id="icon_texts"/>			
+		<group id="top"/>	
+		
+		<chrome id="back" use_def="chrome_texture" width="300" height="113" group="back"/>
+		<chrome id="back_inset" x="7" y="7" use_def="chrome_inset" width="274" height="99" group="back"/>
+		
+		<sprite id="back_shadow" src="ui/saveslot_shadow" center_on="back" group="shadow"/>		
+				
+		<sprite id="icon" src="other/portrait_mane" x="10" y="11" group="icons"/>
+		<sprite id="icon" src="other/icon_party" x="18" y="63" group="icons"/>
+				
+		<text id="example" use_def="sans14y" x="100" y="30" width="100" text="$SAVE_SLOT_1_MSG" group="top"/>
+		
+		<text id="name" use_def="sans18" x="60" y="10" width="100" text="$SAVE_SLOT_DATA" group="top"/>
+		<text id="time" use_def="sans14" x="60" y="61" width="100" text="$SAVE_SLOT_TIME" group="top"/>
+		<text id="date" use_def="sans14" x="60" y="78" width="100" text="$SAVE_SLOT_DATE" group="top"/>
+				
+		<button id="play_big" use_def="big_button_blue" x="194" y="11" group="top" label="$SAVE_PLAY">
+			<param type="string" value="play"/>
+		</button>
+		
+		<button id="new_game" use_def="big_button_gold" x="194" y="11" group="top" label="$SAVE_NEW_GAME" visible="false">
+			<param type="string" value="new"/>
+		</button>
+		
+		<button id="play_small" use_def="skinny_button_blue" x="194" y="12" group="top" label="$SAVE_PLAY" visible="false">
+			<param type="string" value="play"/>
+		</button>
+		
+		<button id="play+" use_def="skinny_button_blue" x="194" y="35" group="top" label="$SAVE_PLAY+" visible="false">
+			<param type="string" value="play+"/>
+		</button>
+
+		<button id="import" use_def="skinny_button_gold" x="194" y="58" group="top" label="$SAVE_IMPORT" visible="false">
+			<param type="string" value="import"/>
+		</button>
+
+		<button id="export" use_def="skinny_button_gold" x="194" y="58" group="top" label="$SAVE_EXPORT">
+			<param type="string" value="export"/>
+		</button>
+
+		<button id="delete" use_def="skinny_button_red" x="194" y="81" group="top" label="$SAVE_DELETE">
+			<param type="string" value="delete"/>
+		</button>
+		
+	</definition>
+-->
+
+	
+	<definition id="option_button" width="54" height="54">
+		<text use_def="sans14c"/>
+		<graphic id="all" image="ui/buttons/button_blue" slice9="6,6,12,12"/>
+	</definition>
+	
+	<definition id="big_button_blue" width="93" height="31">
+		<text use_def="sans14c"/>
+		<graphic id="all" image="ui/buttons/button_blue" slice9="6,6,12,12"/>
+	</definition>
+	
+	<definition id="big_button_gold" width="93" height="31">
+		<text use_def="sans13c"/>
+		<graphic id="all" image="ui/buttons/button_gold" slice9="6,6,12,12"/>
+	</definition>		
+	
+	<definition id="skinny_button_gold" width="93" height="20">
+		<text use_def="pixel"/>
+		<graphic id="all" image="ui/buttons/button_gold" slice9="6,6,12,12"/>
+	</definition>	
+	
+	<definition id="skinny_button_red" width="93" height="20">
+		<text use_def="pixel"/>
+		<graphic id="all" image="ui/buttons/button_red" slice9="6,6,12,12"/>
+	</definition>	
+	
+	<definition id="skinny_button_blue" width="93" height="20">
+		<text use_def="pixel"/>
+		<graphic id="all" image="ui/buttons/button_blue" slice9="6,6,12,12"/>
+	</definition>	
+	
+	
+	<definition id="chrome" src="ui/chrome/dark_grey_texture"  slice9="4,4,8,8" tile="true"/>
+	<definition id="chrome_inset" src="ui/chrome/dark_grey_inset" width="54" height="54" slice9="4,4,8,8"/>
+
+	<chrome id="back" use_def="chrome" width="100%" height="100%" />
+	<chrome id="option1" x="8" y="40" use_def="chrome_inset"  />
+	<chrome id="option2" x="70" y="40" use_def="chrome_inset"  />
+	<chrome id="option3" x="132" y="40" use_def="chrome_inset" />
+	<chrome id="option4" x="194" y="40" use_def="chrome_inset" />
+	<chrome id="option5" x="256" y="40" use_def="chrome_inset" />
+	<chrome id="option6" x="8" y="110" use_def="chrome_inset" />
+	<chrome id="option7" x="70" y="110" use_def="chrome_inset" />
+	<chrome id="option8" x="132" y="110" use_def="chrome_inset" />
+	<chrome id="option9" x="194" y="110" use_def="chrome_inset" />
+	<chrome id="option10" x="256" y="110" use_def="chrome_inset" />
+		
+
+	<button id="prevButton" use_def="skinny_button_gold" x="10" y="180"  label="Prev" visible="false" >
+		<param type="string" value="prev"/>
+	</button>
+
+	<button id="nextButton" use_def="skinny_button_gold" x="217" y="180"  label="Next" visible="false" >
+		<param type="string" value="next"/>
+	</button>
+
+	<button id="mainMenuButton" use_def="skinny_button_red" x="113" y="180"  label="Main Menu" >
+		<param type="string" value="back"/>
+	</button>
+	
+	<!--
+	<text id="option1_text"  x="8" y="40"  text="coming soon..." width="54"  />
+	<text id="option2_text" x="70" y="40"  text="coming soon..." width="54"  />
+	<text id="option3_text" x="132" y="40"  text="coming soon..." width="54"  />
+	<text id="option4_text" x="194" y="40"  text="coming soon..." width="54"  />
+	<text id="option5_text" x="256" y="40"  text="coming soon..." width="54"  />
+	<text id="option6_text"  x="8" y="110"  text="coming soon..." width="54"  />
+	<text id="option7_text" x="70" y="110"  text="coming soon..." width="54"  />
+	<text id="option8_text" x="132" y="110"  text="coming soon..." width="54"  />
+	<text id="option9_text" x="194" y="110"  text="coming soon..." width="54"  />
+	<text id="option10_text" x="256" y="110"  text="coming soon..." width="54"  />
+	-->
+	
+	<button id="option1_button" use_def="option_button" x="8" y="40"  label="1-1" visible="true" >
+		<param type="string" value="1"/>
+	</button>
+	<button id="option2_button" use_def="option_button" x="70" y="40"  label="1-2" visible="true" >
+		<param type="string" value="2"/>
+	</button>
+	<button id="option3_button" use_def="option_button" x="132" y="40"  label="1-3" visible="false" >
+		<param type="string" value="3"/>
+	</button>
+	<button id="option4_button" use_def="option_button" x="194" y="40"  label="" visible="false" >
+		<param type="string" value="4"/>
+	</button>
+	<button id="option5_button" use_def="option_button" x="256" y="40"  label="" visible="false" >
+		<param type="string" value="5"/>
+	</button>
+	<button id="option6_button" use_def="option_button" x="8" y="110"  label="" visible="false" >
+		<param type="string" value="6"/>
+	</button>
+	<button id="option7_button" use_def="option_button" x="70" y="110"  label="" visible="false" >
+		<param type="string" value="7"/>
+	</button>
+	<button id="option8_button" use_def="option_button" x="132" y="110"  label="" visible="false">
+		<param type="string" value="8"/>
+	</button>
+	<button id="option9_button" use_def="option_button" x="194" y="110"  label="" visible="false" >
+		<param type="string" value="9"/>
+	</button>
+	<button id="option10_button" use_def="option_button" x="256" y="110"  label="" visible="false" >
+		<param type="string" value="10"/>
+	</button>
+
+	
+</data>

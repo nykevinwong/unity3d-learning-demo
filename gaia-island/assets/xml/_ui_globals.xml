@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+		
+	<definition id="sans8" font="DroidSans" size="10" style="regular" color="0xffffff" outline="0x000000" align="left"/>
+	<definition id="sans8y" font="DroidSans" size="10" style="regular" color="0xffcc00" outline="0x000000" align="left"/>
+	
+	<definition id="sans8c" font="DroidSans" size="10" style="regular" color="0xffffff" outline="0x000000" align="center"/>
+	<definition id="sans8yc" font="DroidSans" size="10" style="regular" color="0xffcc00" outline="0x000000" align="center"/>
+	
+	<definition id="sans8dc" font="DroidSans" size="10" style="regular" color="0xcccccc" outline="0x000000" align="center"/>
+	<definition id="sans8dyc" font="DroidSans" size="10" style="regular" color="0xccaa00" outline="0x000000" align="center"/>
+	<definition id="sans10" font="DroidSans" size="10" style="regular" color="0xffffff" outline="0x000000" align="left"/>
+	<definition id="sans10c" font="DroidSans" size="10" style="regular" color="0xffffff" outline="0x000000" align="center"/>
+	<definition id="sans12" font="DroidSans" size="12" style="regular" color="0xffffff" outline="0x000000" align="left"/>
+	<definition id="sans12c" font="DroidSans" size="12" style="regular" color="0xffffff" outline="0x000000" align="center"/>
+	<definition id="sans12y" font="DroidSans" size="12" style="regular" color="0xffcc00" outline="0x000000" align="left"/>
+	<definition id="sans14" font="DroidSans" size="14" style="regular" color="0xffffff" outline="0x000000" align="left"/>
+	<definition id="sans14c" font="DroidSans" size="14" style="regular" color="0xffffff" outline="0x000000" align="center"/>
+	<definition id="sans16" font="DroidSans" size="16" style="regular" color="0xffffff" outline="0x000000" align="left"/>
+	<definition id="sans16c" font="DroidSans" size="16" style="regular" color="0xffffff" outline="0x000000" align="center"/>
+	<definition id="sans16y" font="DroidSans" size="16" style="regular" color="0xffcc00" outline="0x000000" align="left"/>
+	
+	<definition id="px8" font="DroidSans" size="10" style="regular" color="0xffffff" outline="0x000000" align="left"/>
+	<definition id="px8y" font="DroidSans" size="10" style="regular" color="0xffcc00" outline="0x000000" align="left"/>
+	
+	<definition id="px8c" font="DroidSans" size="10" style="regular" color="0xffffff" outline="0x000000" align="center"/>
+	<definition id="px8yc" font="DroidSans" size="10" style="regular" color="0xffcc00" outline="0x000000" align="center"/>
+	
+	<definition id="px8dc" font="DroidSans" size="10" style="regular" color="0xcccccc" outline="0x000000" align="center"/>
+	<definition id="px8dyc" font="DroidSans" size="10" style="regular" color="0xccaa00" outline="0x000000" align="center"/>
+	
+	<definition id="sans18" font="DroidSans" size="18" style="regular" color="0xffffff" outline="0x000000" align="left"/>
+	<definition id="sans14y" font="DroidSans" size="14" style="regular" color="0xffcc00" outline="0x000000" align="left"/>
+	<definition id="sans13c" font="DroidSans" size="13" style="regular" color="0xffffff" outline="0x000000" align="center"/>
+	<definition id="sans48c" font="DroidSans" size="48" style="regular" color="0x000000" outline="0xffffff" align="center"/>
+	
+	<definition id="pixel" font="DroidSans" size="10" style="regular" color="0xffffff" outline="0x000000" align="center"/>
+	
+	<definition id="text_button" width="64" height="32">
+		<graphic blank="true"/>
+		<text use_def="sans16c" color="0xffffff">
+			<color id="up" value="0xffffff"/>
+			<color id="over" value="0xffff00"/>
+			<color id="down" value="0xffff00"/>
+		</text>
+	</definition>
+	
+	<definition id="text_button_wide" width="196" height="32">
+		<graphic blank="true"/>
+		<text use_def="sans16c" color="0xffffff">
+			<color id="over" value="0xffff00"/>
+		</text>
+	</definition>
+	
+	<definition id="blue_button" width="50" height="25">		
+		<text use_def="sans12c" color="0xffffff">
+			<color id="over" value="0xffff00"/>
+		</text>		
+		<graphic id="all" image="ui/buttons/button_blue" slice9="6,6,12,12"/>		
+	</definition>
+	
+	<definition id="red_button" width="18" height="18">		
+		<text use_def="sans12c" color="0xffffff">
+			<color id="over" value="0xffff00"/>
+		</text>		
+		<graphic id="all" image="ui/buttons/button_red" slice9="6,6,12,12"/>		
+	</definition>
+		
+	<definition id="check_small" box_src="ui/misc/check_box_small" label_width="100" box_width="16" box_height="16" check_src="ui/misc/check_small">
+		<text use_def="sans12" color="0xffffff">
+			<color id="over" value="0xffff00"/>
+		</text>
+	</definition>
+	
+	<definition id="check_big" box_src="ui/misc/check_box_big" label_width="100" box_width="27" box_height="27" check_src="ui/misc/check_big">
+		<text use_def="sans16y" color="0xffffff">
+			<color id="over" value="0xffff00"/>
+		</text>
+	</definition>
+	
+	<definition id="radio_1" radio_src="ui/misc/radio" dot_src="ui/misc/radio_dot" radio_w="11" radio_h="11" label_width="100" space_y="16">
+	<text use_def="sans12" color="0xffffff">
+		<color id="over" value="0xffff00"/>
+	</text>
+	<haxedef id="cpp">
+		<change text_y="2"/>
+	</haxedef>
+	</definition>
+
+	
+</data>

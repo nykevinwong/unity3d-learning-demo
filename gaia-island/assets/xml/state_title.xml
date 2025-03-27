@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>	
+	<include id="_ui_globals"/>
+	
+	<!--
+	<sprite id="back" src="ui/title_back2" center_x="true" center_y="true" group="title">
+		<scale width="100%" height="100%"/>
+	</sprite>-->
+	
+	<definition id="button" width="80" height="20">		
+		<text use_def="sans12c" color="0xffffff">
+			<color id="over" value="0xffff00"/>
+		</text>		
+		<graphic id="all" image="ui/buttons/button_blue" slice9="6,6,12,12"/>		
+	</definition>
+	
+	<definition id="facebook_button" width="18" height="18">			
+		<graphic id="all" image="ui/buttons/button_facebook" slice9="6,6,12,12"/>		
+	</definition>
+		
+	<text id="gametitle" use_def="sans48c" color="0xcfeff0"  width="100%" center_x="true" y="32" text="$TITLE_GAMETITLE" align="center"  visible="true">
+	</text>
+
+	<!--
+	
+	<button id="saves" center_x="true" x="-100" y="505" use_def="text_button" group="top" label="$TITLE_SAVES">
+		<param type="string" value="saves"/>
+		<locale id="nb-NO">
+			<change width="96"/>
+		</locale>
+	</button>
+	
+	<button id="menu" center_x="true" x="100" y="505" use_def="text_button" group="top" label="$TITLE_MENUS">
+		<param type="string" value="menu"/>
+		<locale id="nb-NO">
+			<change width="96"/>
+		</locale>
+	</button>
+		
+	<button id="default" center_x="true" x="0" y="535t" use_def="text_button_wide" group="top" label="$TITLE_DEFAULT">
+		<param type="string" value="default_test"/>
+	</button>
+	
+	<button id="code" center_x="true" x="0" y="565" use_def="text_button_wide" group="top" label="$TITLE_CODE">
+		<param type="string" value="code_test"/>
+	</button>
+	
+	<button id="battle" center_x="true" x="0" y="505" use_def="text_button" group="top" label="$TITLE_BATTLES">
+		<param type="string" value="battle"/>
+		<locale id="nb-NO">
+			<change width="96"/>
+		</locale>
+	</button>
+	
+	-->
+	
+	<button id="start" center_x="true" x="0" y="100" use_def="text_button_wide" group="top" label="$TITLE_START" visible="true">
+		<param type="string" value="start_game"/>
+	</button>
+	
+	<button id="popup" center_x="true" x="0" y="130" use_def="text_button_wide" group="top" label="$TITLE_LANGUAGE" visible="true">
+		<param type="string" value="language_setting"/>
+	</button>
+	
+	<button id="facebook"  x="5" y="170" use_def="facebook_button" group="top" label="">
+		<param type="string" value="facebook"/>
+	</button>
+	
+	<!--
+	<button id="scaledsrc" center_x="true" x="-200" y="350" group="top" label="SCALED SRC" width="200" height="100">
+		<text use_def="sans14c"/>
+		<graphic id="all" image="ui/buttons/button_blue_scale_all2" slice9="24,24,48,48" src_h="72">
+			<scale_src scale="screen.height/1200"/>
+		</graphic>
+		<param type="string" value="scaledsrc"/>
+	</button>
+	
+	
+	<button id="button_blue" center_x="true" x="200" y="350" group="top" label="SCALED SRC" width="200" height="100">
+		<text use_def="sans14c"/>
+		<graphic id="all" image="ui/buttons/master_button_blue" slice9="20,20,232,228" src_h="256" tile="h" smooth="true">
+			<scale_src scale="screen.height/2400"/>
+		</graphic>
+	</button>
+	-->
+	
+</data>

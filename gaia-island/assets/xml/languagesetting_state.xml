@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>	
+	<include id="_ui_globals"/>
+	
+	<!--Definitions-->
+		
+	<!--STUFF-->
+	
+	<sprite id="black" x="0" y="0" width="100%" height="100%" color="0x88000000"/>
+	
+	<chrome id="back" src="ui/chrome/dark_grey" slice9="4,4,8,8" center_x="true" center_y="true" width="100%" height="60%"/>		
+	
+	<text id="title" use_def="sans12c" x="0" y="5" width="back.width" text="$TITLE_LANGUAGE" align="center">
+		<anchor x="back.left" x-flush="left" y="back.top" y-flush="top"/>		
+	</text>
+	
+	<radio_group x="10" y="10" use_def="radio_1" id="locale_radio">
+		<anchor x="title.left" x-flush="left" y="title.bottom" y-flush="top"/>
+		<text use_def="sans12" color="0xffffff">
+			<color id="over" value="0xffff00"/>
+		</text>
+		<radio id="en-US" label="$LANGUAGE:EN-US" context="index">
+		</radio>
+		<radio id="zh-TW"  label="$LANGUAGE:ZH-TW" context="index">
+		</radio>
+		<radio id="LocaleLastRadioButtonHack" label="LocaleLastRadioButtonHack" context="index"/>
+	</radio_group>
+	
+
+		
+	<button id="closeBtn" use_def="red_button"  center_x="true" label="$POPUP_OK" width="80">
+		<anchor  y="locale_radio.bottom" y-flush="top"/>		
+		<param type="int" value="2"/>
+	</button>		
+		
+</data>

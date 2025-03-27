@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="13" tilewidth="16" tileheight="16" nextobjectid="441">
+ <tileset firstgid="1" name="tiles" tilewidth="16" tileheight="16" tilecount="400" columns="20">
+  <image source="../images/tiles.png" trans="ff00ff" width="320" height="320"/>
+  <terraintypes>
+   <terrain name="grasslan" tile="-1"/>
+  </terraintypes>
+  <tile id="0" terrain=",,,0"/>
+  <tile id="1" terrain=",,0,0"/>
+  <tile id="2" terrain=",,0,"/>
+  <tile id="4">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="20" terrain=",0,,0"/>
+  <tile id="21" terrain="0,0,0,0"/>
+  <tile id="22" terrain="0,,0,"/>
+  <tile id="40" terrain=",0,,"/>
+  <tile id="41" terrain="0,0,,"/>
+  <tile id="42" terrain="0,,,"/>
+  <tile id="180">
+   <animation>
+    <frame tileid="180" duration="100"/>
+    <frame tileid="181" duration="100"/>
+    <frame tileid="182" duration="100"/>
+    <frame tileid="183" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="184">
+   <animation>
+    <frame tileid="184" duration="300"/>
+    <frame tileid="185" duration="300"/>
+    <frame tileid="186" duration="300"/>
+    <frame tileid="187" duration="300"/>
+    <frame tileid="186" duration="300"/>
+    <frame tileid="185" duration="300"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="401" name="enemy_partol" tilewidth="16" tileheight="16" tilecount="400" columns="20">
+  <image source="../images/objects.png" trans="ff00ff" width="320" height="320"/>
+ </tileset>
+ <tileset firstgid="801" name="doors" tilewidth="16" tileheight="32" tilecount="40" columns="10">
+  <image source="../images/doors.png" trans="ff00ff" width="160" height="128"/>
+ </tileset>
+ <layer name="walls" width="20" height="13" offsetx="-16" offsety="-16">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACPAAAAAAAAAFQAAABVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABUAAAAVQAAAI8AAAAAAAAAaAAAAGkAAAAAAAAAzwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzwAAAGgAAABpAAAAjwAAAAAAAABoAAAAaQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAAAAGkAAACPAAAAAAAAAGgAAABpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABoAAAAaQAAAI8AAAAAAAAAaAAAAGkAAABnAAAApAAAAAAAAACjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKIAAACkAAAAagAAAGgAAABpAAAAjwAAAAAAAAAEAAAABQAAAAUAAAAFAAAABQAAAAYAAAC5AAAAuQAAALkAAAC5AAAAuQAAALkAAAC5AAAABAAAAAUAAAAFAAAABQAAAAUAAAAFAAAABgAAABgAAAAZAAAAGQAAABkAAAAZAAAAGgAAAL0AAAC9AAAAvQAAAL0AAAC9AAAAvQAAAL0AAAAYAAAAGQAAABkAAAAZAAAAGQAAABkAAAAaAAAALAAAAC0AAAAtAAAALQAAAC0AAAAuAAAAvQAAAL0AAAC9AAAAvQAAAL0AAAC9AAAAvQAAACwAAAAtAAAALQAAAC0AAAAtAAAALQAAAC4AAAA=
+  </data>
+ </layer>
+</map>

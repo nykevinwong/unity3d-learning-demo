@@ -4,3 +4,7 @@
 
 # mini-games
 - [Box Tower](https://nykevinwong.github.io/unity3d-learning-demo/box-tower/)
+
+# my game prototypes
+- [duck hunter](https://nykevinwong.github.io/unity3d-learning-demo/duck-hunt/)
+- [gaia-island](https://nykevinwong.github.io/unity3d-learning-demo/gaia-island/)
