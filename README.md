@@ -8,3 +8,4 @@
 # my game prototypes
 - [duck hunter](https://nykevinwong.github.io/unity3d-learning-demo/duck-hunt/)
 - [gaia-island](https://nykevinwong.github.io/unity3d-learning-demo/gaia-island/)
+- [tale-of-zenthos-clash-of-empire] (https://nykevinwong.github.io/unity3d-learning-demo/tale-of-zenthos-clash-of-empire/)
